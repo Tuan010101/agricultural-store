@@ -27,8 +27,8 @@ public class CartRepositoryCustomImpl implements CartRepositoryCustom{
         List<CartDto> res = new ArrayList<>();
         StringBuilder sql = new StringBuilder();
         sql.append("SELECT c.id as cartId, c.amount as amount, p.image as image, p.name as name, p.description as description, p.price as price ");
-        sql.append(" FROM coffee.cart as c ");
-        sql.append(" inner join coffee.product as p ");
+        sql.append(" FROM cart as c ");
+        sql.append(" inner join product as p ");
         sql.append(" on c.product_id = p.id ");
         sql.append(" where c.account_id = ").append(accountId);
         sql.append(" and c.status = 0");
@@ -53,8 +53,8 @@ public class CartRepositoryCustomImpl implements CartRepositoryCustom{
         sql.append("SELECT c.id as cartId, c.amount as amount, p.image as image, p.name as name, p.price as price, ");
         sql.append(" c.date as date, c.user_address as userAddress, c.user_email as userEmail, c.status_ship as statusShip, ");
         sql.append(" c.user_name as userName, c.user_phone as userPhone, c.payment_method as paymentMethod ");
-        sql.append(" FROM coffee.cart as c ");
-        sql.append(" inner join coffee.product as p ");
+        sql.append(" FROM cart as c ");
+        sql.append(" inner join product as p ");
         sql.append(" on c.product_id = p.id ");
         sql.append(" where c.account_id = ").append(accountId);
         sql.append(" and c.status = 1");
@@ -86,8 +86,8 @@ public class CartRepositoryCustomImpl implements CartRepositoryCustom{
         sql.append("SELECT c.id as cartId, c.amount as amount, p.image as image, p.name as name, p.price as price, ");
         sql.append(" c.date as date, c.user_address as userAddress, c.user_email as userEmail, c.status_ship as statusShip, ");
         sql.append(" c.user_name as userName, c.user_phone as userPhone, c.payment_method as paymentMethod, c.account_id as accountId ");
-        sql.append(" FROM coffee.cart as c ");
-        sql.append(" inner join coffee.product as p ");
+        sql.append(" FROM cart as c ");
+        sql.append(" inner join product as p ");
         sql.append(" on c.product_id = p.id ");
         sql.append(" where c.status = 1 ");
         sql.append(" order by c.date desc");

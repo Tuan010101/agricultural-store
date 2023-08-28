@@ -19,9 +19,9 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
 
     void deleteByProductId(Long productId);
 
-    @Query(value = "SELECT * FROM coffee.product where product.name like %?1%", nativeQuery = true)
+    @Query(value = "SELECT * FROM product where product.name like %?1%", nativeQuery = true)
     List<Product> findByName(String name);
 
-    @Query(value = "SELECT * FROM coffee.product order by product.id desc limit 4", nativeQuery = true)
+    @Query(value = "SELECT * FROM product order by product.id desc limit 4", nativeQuery = true)
     List<Product> find4LatestProducts();
 }

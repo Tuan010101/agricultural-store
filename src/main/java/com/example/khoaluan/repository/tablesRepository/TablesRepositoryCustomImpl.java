@@ -26,8 +26,8 @@ public class TablesRepositoryCustomImpl implements TablesRepositoryCustom  {
         List<TableDto> res = new ArrayList<>();
         StringBuilder sql = new StringBuilder();
         sql.append("SELECT t.id as id, t.table_number as tableNumber, t.amount as amount, p.name as name, p.price as price ");
-        sql.append(" FROM coffee.tables as t ");
-        sql.append(" left join coffee.product as p ");
+        sql.append(" FROM tables as t ");
+        sql.append(" left join product as p ");
         sql.append(" on t.product_id = p.id ");
         sql.append(" where t.status = 0 ");
         sql.append(" order by t.table_number asc");
