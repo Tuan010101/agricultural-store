@@ -7,5 +7,17 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - coffee_7glt@dpg-cjlg0c7v9s6c73cri1k0-a.oregon-postgres.render.com" uuid="d78a2dc9-5bc4-4e4e-b761-fa5fb2b1e9c5">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://dpg-cjlg0c7v9s6c73cri1k0-a.oregon-postgres.render.com:5432/coffee_7glt</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="aws_db" uuid="c5e7c1aa-ebe0-4e90-91de-e9ea575d69a2">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://coffee.cisaxmnhubh2.eu-north-1.rds.amazonaws.com:3306/coffee</jdbc-url>
+    </data-source>
   </component>
 </project>
