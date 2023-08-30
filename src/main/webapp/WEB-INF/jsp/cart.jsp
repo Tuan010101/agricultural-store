@@ -195,7 +195,7 @@
             <div class="col-md-7 heading-section ftco-animate text-center">
                 <span class="subheading">Khám phá</span>
                 <h2 class="mb-4">Sản phẩm mới nhất</h2>
-                <p>Đây là những sản phẩm mới nhất với đầy đủ tâm huyết của chúng tôi. Chúng tôi luôn cố gắng để đạt được những sản phẩm mới đi đôi với chất lượng.</p>
+                <h5>Đây là những sản phẩm mới nhất với đầy đủ tâm huyết của chúng tôi. Chúng tôi luôn cố gắng để đạt được những sản phẩm mới đi đôi với chất lượng.</h5>
             </div>
         </div>
         <div class="row">

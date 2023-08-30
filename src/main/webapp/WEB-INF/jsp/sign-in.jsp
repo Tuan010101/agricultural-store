@@ -174,7 +174,7 @@
 <%--    </div>--%>
     <div class="col-md-6">
       <div class="bg-white p-4 h-100">
-        <div class=" d-flex justify-content-center flex-column align-items-center"> <a href="/index" style="color: #000000; text-decoration: none" class="main-heading">T COFFEE</a>
+        <div class=" d-flex justify-content-center flex-column align-items-center"> <a href="/index" style="color: #000000; text-decoration: none" class="main-heading">T FARM</a>
           <div class="form-data navbar-brand" style="text-align: center; margin: 5px 0 5px 0;">Đăng Nhập</div>
           <form class="p-3 d-flex justify-content-center flex-column align-items-center" style="width: 100%" action="/sign-in" method="post">
             <c:if test="${p == 1}">

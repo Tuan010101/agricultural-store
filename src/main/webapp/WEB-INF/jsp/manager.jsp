@@ -346,7 +346,7 @@
 <%--Header--%>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-        <a class="navbar-brand" href="/index">Coffee<small>T</small></a>
+        <a class="navbar-brand" href="/index">FARM<small>T</small></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
                 aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
@@ -554,18 +554,18 @@
                 </c:forEach>
                 </tbody>
             </table>
-            <div class="clearfix">
-                <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
-                <ul class="pagination">
-                    <li class="page-item disabled"><a href="#">Previous</a></li>
-                    <li class="page-item"><a href="#" class="page-link">1</a></li>
-                    <li class="page-item"><a href="#" class="page-link">2</a></li>
-                    <li class="page-item active"><a href="#" class="page-link">3</a></li>
-                    <li class="page-item"><a href="#" class="page-link">4</a></li>
-                    <li class="page-item"><a href="#" class="page-link">5</a></li>
-                    <li class="page-item"><a href="#" class="page-link">Next</a></li>
-                </ul>
-            </div>
+<%--            <div class="clearfix">--%>
+<%--                <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>--%>
+<%--                <ul class="pagination">--%>
+<%--                    <li class="page-item disabled"><a href="#">Previous</a></li>--%>
+<%--                    <li class="page-item"><a href="#" class="page-link">1</a></li>--%>
+<%--                    <li class="page-item"><a href="#" class="page-link">2</a></li>--%>
+<%--                    <li class="page-item active"><a href="#" class="page-link">3</a></li>--%>
+<%--                    <li class="page-item"><a href="#" class="page-link">4</a></li>--%>
+<%--                    <li class="page-item"><a href="#" class="page-link">5</a></li>--%>
+<%--                    <li class="page-item"><a href="#" class="page-link">Next</a></li>--%>
+<%--                </ul>--%>
+<%--            </div>--%>
         </div>
     </div>
 </div>
@@ -601,7 +601,7 @@
                                class="form-control" required>
                     </div>
                     <select style="width: 100%;height: 58px;margin: 20px 0px;" name="category" required>
-                        <option value="" selected disabled>Chọn loại cà phê</option>
+                        <option value="" selected disabled>Chọn loại sản phẩm</option>
                         <c:forEach items="${categories}" var="category">
                             <option value="${category.categoryId}">${category.nameOfCategory}</option>
                         </c:forEach>

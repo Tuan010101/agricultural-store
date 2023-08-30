@@ -44,7 +44,7 @@
 
 				<div class="col-md-8 col-sm-12 text-center ftco-animate">
 					<span class="subheading">Welcome</span>
-					<h1 class="mb-4">Trải nghiệm cà phê với hương vị tuyệt đỉnh</h1>
+					<h1 class="mb-4">MANG SỨC KHOẺ VÀ CUỘC SỐNG AN LÀNH ĐẾN MỌI NƠI</h1>
 <%--					<p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>--%>
 					<p><a href="/categories" class="btn btn-primary p-3 px-xl-4 py-xl-3">Đặt Ngay</a> <a href="/categories" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Xem Menu</a></p>
 				</div>
@@ -60,7 +60,7 @@
 
 				<div class="col-md-8 col-sm-12 text-center ftco-animate">
 					<span class="subheading">Welcome</span>
-					<h1 class="mb-4">Hương vị tuyệt vời và Địa điểm tuyệt đẹp</h1>
+					<h1 class="mb-4">ĐẦY ĐỦ GIA VỊ ĐỂ BỮA ĂN THÊM PHẦN HOÀN HẢO</h1>
 <%--					<p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>--%>
 					<p><a href="/categories" class="btn btn-primary p-3 px-xl-4 py-xl-3"> Đặt Ngay </a> <a href="/categories" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Xem Menu</a></p>
 				</div>
@@ -89,7 +89,7 @@
 <section class="ftco-intro">
 	<div class="container-wrap">
 		<div class="wrap d-md-flex align-items-xl-end">
-			<div class="info">
+			<div class="info" style="width: 100%">
 				<div class="row no-gutters">
 					<div class="col-md-4 d-flex ftco-animate">
 						<div class="icon"><span class="icon-phone"></span></div>
@@ -114,39 +114,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="book p-4">
-				<h3>Đặt bàn</h3>
-				<form action="#" class="appointment-form">
-					<div class="d-md-flex">
-						<input type="text" class="form-control" placeholder="Họ và tên">
-					</div>
-					<div class="d-md-flex">
-						<div class="form-group">
-							<div class="input-wrap">
-								<div class="icon"><span class="ion-md-calendar"></span></div>
-								<input type="text" class="form-control appointment_date" placeholder="Ngày">
-							</div>
-						</div>
-						<div class="form-group ml-md-4">
-							<div class="input-wrap">
-								<div class="icon"><span class="ion-ios-clock"></span></div>
-								<input type="text" class="form-control appointment_time" placeholder="Giờ">
-							</div>
-						</div>
-						<div class="form-group ml-md-4">
-							<input type="text" class="form-control" placeholder="Điện thoại">
-						</div>
-					</div>
-					<div class="d-md-flex">
-						<div class="form-group">
-							<textarea name="" cols="30" rows="2" class="form-control" placeholder="Ghi chú"></textarea>
-						</div>
-						<div class="form-group ml-md-4">
-							<input type="submit" value="Đặt Bàn" class="btn btn-white py-3 px-4">
-						</div>
-					</div>
-				</form>
-			</div>
 		</div>
 	</div>
 </section>
@@ -159,9 +126,9 @@
 			<div class="col-md-6 pr-md-5">
 				<div class="heading-section text-md-right ftco-animate">
 					<span class="subheading">Khám Phá</span>
-					<h2 class="mb-4">Menu của chúng tôi</h2>
-					<p class="mb-4">Đầy đủ sự lựa chọn cho bạn</p>
-					<p><a href="/categories" class="btn btn-primary btn-outline-primary px-4 py-3">XEM MENU ĐẦY ĐỦ</a></p>
+					<h2 class="mb-4">Sản phẩm của chúng tôi</h2>
+					<p class="mb-4">Đầy đủ sản phẩm để bạn lựa chọn</p>
+					<p><a href="/categories" class="btn btn-primary btn-outline-primary px-4 py-3">XEM SẢN PHẨM</a></p>
 				</div>
 			</div>
 			<div class="col-md-6">
@@ -220,9 +187,9 @@
 			<div class="col-md-4 ftco-animate">
 				<div class="media d-block text-center block-6 services">
 					<div class="icon d-flex justify-content-center align-items-center mb-5">
-						<span class="flaticon-coffee-bean"></span></div>
+						<img src="../images/paddy.jpg" style="height: 60%; width: 60%"></img></div>
 					<div class="media-body">
-						<h3 class="heading">Cà phê chất lượng</h3>
+						<h3 class="heading">Sản phẩm chất lượng</h3>
 						<p>Với sự chọn lọc kỹ lưỡng và hợp tác với nhà sản xuất uy tín chúng tôi tự tin đây là ưu điểm đáng tự hào</p>
 					</div>
 				</div>
@@ -241,7 +208,7 @@
 						<div class="block-18 text-center">
 							<div class="text">
 								<div class="icon"><span class="flaticon-coffee-cup"></span></div>
-								<strong class="number" data-number="100">0</strong>
+								<strong class="number" data-number="10">0</strong>
 								<span>Chi nhánh</span>
 							</div>
 						</div>
@@ -250,7 +217,7 @@
 						<div class="block-18 text-center">
 							<div class="text">
 								<div class="icon"><span class="flaticon-coffee-cup"></span></div>
-								<strong class="number" data-number="85">0</strong>
+								<strong class="number" data-number="20">0</strong>
 								<span>Giải thưởng</span>
 							</div>
 						</div>
@@ -259,7 +226,7 @@
 						<div class="block-18 text-center">
 							<div class="text">
 								<div class="icon"><span class="flaticon-coffee-cup"></span></div>
-								<strong class="number" data-number="1056701">0</strong>
+								<strong class="number" data-number="105670">0</strong>
 								<span>Khách hàng đánh giá cao</span>
 							</div>
 						</div>
@@ -268,7 +235,7 @@
 						<div class="block-18 text-center">
 							<div class="text">
 								<div class="icon"><span class="flaticon-coffee-cup"></span></div>
-								<strong class="number" data-number="900">0</strong>
+								<strong class="number" data-number="112">0</strong>
 								<span>Nhân viên</span>
 							</div>
 						</div>
@@ -285,7 +252,7 @@
 			<div class="col-md-7 heading-section ftco-animate text-center">
 				<span class="subheading">Khám phá</span>
 				<h2 class="mb-4">Sản phẩm mới nhất</h2>
-				<p>Đây là những sản phẩm mới nhất với đầy đủ tâm huyết của chúng tôi. Chúng tôi luôn cố gắng để đạt được những sản phẩm mới đi đôi với chất lượng.</p>
+				<h5>Đây là những sản phẩm mới nhất với đầy đủ tâm huyết của chúng tôi. Chúng tôi luôn cố gắng để đạt được những sản phẩm mới đi đôi với chất lượng.</h5>
 			</div>
 		</div>
 		<div class="row">
@@ -312,8 +279,8 @@
 		<div class="row justify-content-center mb-5">
 			<div class="col-md-7 heading-section text-center ftco-animate">
 				<span class="subheading">Feedback</span>
-				<h2 class="mb-4">Nhận xét của chuyên gia</h2>
-				<p>CHÚNG TÔI SẼ CẨN TRỌNG VỚI NHỮNG LỜI NHẬN XÉT VÀ DẦN HOÀN THIỆN HƠN.</p>
+				<h2 class="mb-4">Nhận xét của khách hàng</h2>
+				<h5>CHÚNG TÔI SẼ CẨN TRỌNG VỚI NHỮNG LỜI NHẬN XÉT VÀ DẦN HOÀN THIỆN HƠN.</h5>
 			</div>
 		</div>
 	</div>
@@ -391,49 +358,49 @@
 <section class="ftco-section">
 </section>
 
-<section class="ftco-appointment">
-	<div class="overlay"></div>
-	<div class="container-wrap">
-		<div class="row no-gutters d-md-flex align-items-center">
-			<div class="col-md-6 d-flex align-self-stretch">
-				<div id="map"></div>
-			</div>
-			<div class="col-md-6 appointment ftco-animate">
-				<h3 class="mb-3">ĐẶT BÀN</h3>
-				<form action="#" class="appointment-form">
-					<div class="d-md-flex">
-						<input type="text" class="form-control" placeholder="Họ và tên">
-					</div>
-					<div class="d-md-flex">
-						<div class="form-group">
-							<div class="input-wrap">
-								<div class="icon"><span class="ion-md-calendar"></span></div>
-								<input type="text" class="form-control appointment_date" placeholder="Ngày">
-							</div>
-						</div>
-						<div class="form-group ml-md-4">
-							<div class="input-wrap">
-								<div class="icon"><span class="ion-ios-clock"></span></div>
-								<input type="text" class="form-control appointment_time" placeholder="Giờ">
-							</div>
-						</div>
-						<div class="form-group ml-md-4">
-							<input type="text" class="form-control" placeholder="Điện thoại">
-						</div>
-					</div>
-					<div class="d-md-flex">
-						<div class="form-group">
-							<textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Ghi chú"></textarea>
-						</div>
-						<div class="form-group ml-md-4">
-							<input type="submit" value="Đặt Bàn" class="btn btn-primary py-3 px-4">
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-</section>
+<%--<section class="ftco-appointment">--%>
+<%--	<div class="overlay"></div>--%>
+<%--	<div class="container-wrap">--%>
+<%--		<div class="row no-gutters d-md-flex align-items-center">--%>
+<%--			<div class="col-md-6 d-flex align-self-stretch">--%>
+<%--				<div id="map"></div>--%>
+<%--			</div>--%>
+<%--			<div class="col-md-6 appointment ftco-animate">--%>
+<%--				<h3 class="mb-3">ĐẶT BÀN</h3>--%>
+<%--				<form action="#" class="appointment-form">--%>
+<%--					<div class="d-md-flex">--%>
+<%--						<input type="text" class="form-control" placeholder="Họ và tên">--%>
+<%--					</div>--%>
+<%--					<div class="d-md-flex">--%>
+<%--						<div class="form-group">--%>
+<%--							<div class="input-wrap">--%>
+<%--								<div class="icon"><span class="ion-md-calendar"></span></div>--%>
+<%--								<input type="text" class="form-control appointment_date" placeholder="Ngày">--%>
+<%--							</div>--%>
+<%--						</div>--%>
+<%--						<div class="form-group ml-md-4">--%>
+<%--							<div class="input-wrap">--%>
+<%--								<div class="icon"><span class="ion-ios-clock"></span></div>--%>
+<%--								<input type="text" class="form-control appointment_time" placeholder="Giờ">--%>
+<%--							</div>--%>
+<%--						</div>--%>
+<%--						<div class="form-group ml-md-4">--%>
+<%--							<input type="text" class="form-control" placeholder="Điện thoại">--%>
+<%--						</div>--%>
+<%--					</div>--%>
+<%--					<div class="d-md-flex">--%>
+<%--						<div class="form-group">--%>
+<%--							<textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Ghi chú"></textarea>--%>
+<%--						</div>--%>
+<%--						<div class="form-group ml-md-4">--%>
+<%--							<input type="submit" value="Đặt Bàn" class="btn btn-primary py-3 px-4">--%>
+<%--						</div>--%>
+<%--					</div>--%>
+<%--				</form>--%>
+<%--			</div>--%>
+<%--		</div>--%>
+<%--	</div>--%>
+<%--</section>--%>
 
 <jsp:include page="basefragments/footer.jsp"></jsp:include>
 

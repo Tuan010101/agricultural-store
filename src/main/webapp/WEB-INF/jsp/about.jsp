@@ -62,29 +62,22 @@
             </div>
             <div>
                 <p>
-                    Một ngày, khi đang thưởng thức một tách cà phê ngon tại quán xung quanh nhà, Tôi đã được giới thiệu
-                    với một người bạn của người bạn, là chủ một trang trại cà phê ở vùng nông thôn.
+                    Cách đây không lâu, ở một thị trấn nhỏ nằm giữa những cánh đồng xanh mướt, có một người tên là Tuấn đó là tôi.
+                    tôi luôn có một niềm đam mê sâu sắc với tự nhiên và những sản vật trái cây, rau củ mà nó mang lại.
+                    Tình yêu với nông nghiệp và mong muốn cung cấp những sản phẩm nông sản tươi ngon, bổ dưỡng cho cộng
+                    đồng đã truyền cảm hứng cho tôi khám phá một cuộc hành trình đáng nhớ.
                 </p>
                 <p>
-                    Sau khi tham quan trang trại và được hướng dẫn về quá trình rang xay cà phê, Tôi đã yêu thích và
-                    quyết định mở một quán cà phê vừa được cung cấp nguyên liệu từ trang trại này. Tuy nhiên, việc xây
-                    dựng thương hiệu và quy trình kinh doanh mới hoàn toàn không phải là chuyện đơn giản.
+                    Với lòng đam mê không ngừng và ý chí kiên trì, tôi bắt đầu tìm hiểu về các phương pháp trồng trọt,
+                    liên kết với những người nông dân địa phương và hiểu rõ sâu sắc về ngành công nghiệp nông nghiệp.
+                    tôi tham gia các khóa học, thăm các trang trại và tìm kiếm sự hướng dẫn từ những chuyên gia trong lĩnh vực này.
+                    Với kiến thức và một kế hoạch vững chắc, tôi đã tìm được một vị trí cho cửa hàng của mình và bắt đầu
+                    xây dựng mối quan hệ với những nông dân chia sẻ những giá trị của mình.
                 </p>
                 <p>
-                    Cuối cùng, quán cà phê của Tôi đã được khai trương thành công. Các khách hàng đến thưởng thức cà phê
-                    đều sống động khen ngợi hương vị thơm ngon, chất lượng cà phê tươi và tinh tế trong mỗi chi tiết của
-                    quán.
-                </p>
-                <p>
-                    Tôi bắt đầu tìm hiểu, nghiên cứu các đối thủ trên thị trường cà phê hiện nay, học về quản lý từ các
-                    chuyên gia kinh doanh. Cô rất cẩn thận và tỉ mỉ trong việc thiết kế logo, menu và đồ dùng trang trí
-                    quán cà phê.
-                </p>
-                <p>
-                    Vì sự chăm sóc và đầu tư của mọi người đồng hành cùng tôi, thương hiệu cà phê của Tôi đã trở thành
-                    điểm đến ưa thích của nhiều người yêu cà phê trong khu vực. Tôi cảm thấy hạnh phúc và tự hào khi
-                    thấy khách hàng của mình thưởng thức được những giọt cà phê thượng hạng từ trang trại nông thôn,
-                    đồng thời đóng góp cho sự phát triển của nông nghiệp và nông dân địa phương.
+                    Trong quá trình xây dựng cửa hàng, tôi làm việc chăm chỉ để tạo ra một môi trường chào đón và mỹ quan.
+                    tôi muốn khách hàng của mình có thể cảm nhận được không chỉ sự tươi mới của sản phẩm, mà còn là một không
+                    gian thân thiện và đẹp mắt.
                 </p>
             </div>
         </div>
@@ -97,8 +90,8 @@
         <div class="row justify-content-center mb-5">
             <div class="col-md-7 heading-section text-center ftco-animate">
                 <span class="subheading">Feedback</span>
-                <h2 class="mb-4">Nhận xét của chuyên gia</h2>
-                <p>CHÚNG TÔI SẼ CẨN TRỌNG VỚI NHỮNG LỜI NHẬN XÉT VÀ DẦN HOÀN THIỆN HƠN.</p>
+                <h2 class="mb-4">Nhận xét của khách hàng</h2>
+                <h5>CHÚNG TÔI SẼ CẨN TRỌNG VỚI NHỮNG LỜI NHẬN XÉT VÀ DẦN HOÀN THIỆN HƠN.</h5>
             </div>
         </div>
     </div>
@@ -193,9 +186,9 @@
             <div class="col-md-6 pr-md-5">
                 <div class="heading-section text-md-right ftco-animate">
                     <span class="subheading">Khám Phá</span>
-                    <h2 class="mb-4">Menu của chúng tôi</h2>
+                    <h2 class="mb-4">Sản phẩm của chúng tôi</h2>
                     <p class="mb-4">Đầy đủ sự lựa chọn cho bạn</p>
-                    <p><a href="/categories" class="btn btn-primary btn-outline-primary px-4 py-3">XEM MENU ĐẦY ĐỦ</a></p>
+                    <p><a href="/categories" class="btn btn-primary btn-outline-primary px-4 py-3">XEM SẢN PHẨM</a></p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -236,7 +229,7 @@
                         <div class="block-18 text-center">
                             <div class="text">
                                 <div class="icon"><span class="flaticon-coffee-cup"></span></div>
-                                <strong class="number" data-number="100">0</strong>
+                                <strong class="number" data-number="10">0</strong>
                                 <span>Chi nhánh</span>
                             </div>
                         </div>
@@ -245,7 +238,7 @@
                         <div class="block-18 text-center">
                             <div class="text">
                                 <div class="icon"><span class="flaticon-coffee-cup"></span></div>
-                                <strong class="number" data-number="85">0</strong>
+                                <strong class="number" data-number="20">0</strong>
                                 <span>Giải thưởng</span>
                             </div>
                         </div>
@@ -254,7 +247,7 @@
                         <div class="block-18 text-center">
                             <div class="text">
                                 <div class="icon"><span class="flaticon-coffee-cup"></span></div>
-                                <strong class="number" data-number="1056701">0</strong>
+                                <strong class="number" data-number="105670">0</strong>
                                 <span>Khách hàng đánh giá cao</span>
                             </div>
                         </div>
@@ -263,7 +256,7 @@
                         <div class="block-18 text-center">
                             <div class="text">
                                 <div class="icon"><span class="flaticon-coffee-cup"></span></div>
-                                <strong class="number" data-number="900">0</strong>
+                                <strong class="number" data-number="100">0</strong>
                                 <span>Nhân viên</span>
                             </div>
                         </div>

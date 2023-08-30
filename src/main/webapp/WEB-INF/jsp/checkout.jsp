@@ -168,9 +168,9 @@
                 </div>
                 <div class="sidebar-box ftco-animate">
                     <div class="categories">
-                        <h3>Loại đồ uống</h3>
+                        <h3>Sản phẩm</h3>
                         <c:forEach items="${categories}" var="category">
-                            <li><a href="/categories/${category.categoryId}" title="...">${category.nameOfCategory} <span>(5)</span></a></li>
+                            <li><a href="/categories/${category.categoryId}" title="...">${category.nameOfCategory} <span>|</span></a></li>
                         </c:forEach>
                     </div>
                 </div>

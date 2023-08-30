@@ -66,10 +66,10 @@
 	              <p><span>Số điện thoại:</span> <a href="tel://12345679">+84 123456789</a></p>
 	            </div>
 	            <div class="col-md-12 mb-3">
-	              <p><span>Email:</span> <a href="mailto:TCoffee@gmail.com">TCoffee@gmail.com</a></p>
+	              <p><span>Email:</span> <a href="mailto:TCoffee@gmail.com">TFarm@gmail.com</a></p>
 	            </div>
 	            <div class="col-md-12 mb-3">
-	              <p><span>Website:</span> <a href="#">TCoffee.com</a></p>
+	              <p><span>Website:</span> <a href="#">TFarm.com</a></p>
 	            </div>
 						</div>
 					</div>

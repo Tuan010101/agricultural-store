@@ -58,7 +58,7 @@ public class CartRepositoryCustomImpl implements CartRepositoryCustom{
         sql.append(" on c.product_id = p.id ");
         sql.append(" where c.account_id = ").append(accountId);
         sql.append(" and c.status = 1");
-        sql.append(" order by c.date desc");
+        sql.append(" order by c.status_ship asc");
 
         res = entityManager.unwrap(org.hibernate.Session.class).createNativeQuery(sql.toString())
                 .addScalar("cartId", LongType.INSTANCE)
@@ -90,7 +90,7 @@ public class CartRepositoryCustomImpl implements CartRepositoryCustom{
         sql.append(" inner join product as p ");
         sql.append(" on c.product_id = p.id ");
         sql.append(" where c.status = 1 ");
-        sql.append(" order by c.date desc");
+        sql.append(" order by c.status_ship asc");
 
         res = entityManager.unwrap(org.hibernate.Session.class).createNativeQuery(sql.toString())
                 .addScalar("cartId", LongType.INSTANCE)
